@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navvar{
+    background-color: lightblue;
+    position: sticky;
+    
+}
+h3{
+    z-index:2;
+}
+p{
+    font-size:20px;
+    font-style: italic;
+}
+li{
+    display: inline;
+    margin-left: 2px;
+}
+#image{
+    margin-top: 0;
+    width: 1350px;
+    opacity: 0.6;
+}
+.about
+{
+    text-align:center;
+}
+.about h5,p{
+    margin-top: 10px;
+}
+  #aboutp2{
+      width: 820px;
+      text-align: start;
+      text-align: center;
+     padding-left: 300px;
+
+  }
+  #navvar {
+    overflow: auto;
+    background-color: #333;
+  }
+  #navvar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #navvar a:hover{
+      background-color: blue;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .mine{
+      display: flex;
+      margin-left: 302px;
+       margin-top: 22px;
+  }
+  .mine img{
+      width: 300px;
+      height: 300px;
+      margin-left: 300;
+      margin-top: 45px;
+      opacity: 0.6;
+  }
+  .mine img:hover{
+      opacity: 1;
+  }
+  #p{
+      width: 70%;
+     margin-left:12px;
+  }
+  .skill{
+      margin-left: 302px;
+      margin-top:22px;
+  }
+  #graphy,#photoshop,#design{
+    border: 2px solid black;
+    text-align: center;
+    width: 700px;
+  }
+  #graphy{
+      background-image: linear-gradient( to right ,rgb(34,33,33) 90%,white 10%);
+  }
+  #photoshop{
+      background-image: linear-gradient(to right,rgb(34, 33, 33) 75%,white 25%);
+  }
+  #design{
+      background-image: linear-gradient(to right,rgb(34, 33, 33) 85%,white 15%);
+  }
+  #photography,#webdesign,#photo{
+      letter-spacing: 10px;
+  }
+  .works{
+      display: flex;
+      background-color: rgb(70, 69, 69);
+      align-items: center;
+      justify-content: space-between;
+      margin-top:22px;
+      width: 100%;
+      margin:0 3px;
+     
+  }
+  .experience img{
+   
+    width:1350px;
+    opacity: 0.6;
+  }
+  .experience{
+      margin-top: 40px;
+  }
+  .exw{
+      color: white;
+      margin: 32px;
+  }
+ .interest1,.interest2{
+     margin-top: 20px;
+     display: flex;
+     align-items:flex-start;
+     justify-content: center;
+ }
+ .interests img{
+     width: 200px;
+     margin-left: 30px;
+     height: 200px;
+     box-shadow: 2px 2px 2px black;
+     border-radius: 50%;
+ }
+ .interests img{
+     animation-name: animate;
+     animation-duration:4s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;     
+ }
+      .interests img:hover{
+        animation-play-state: paused;
+      }
+      
+ @keyframes animate {
+     from{transform: rotate(0deg);}
+     to{transform: rotate(360deg);}
+     
+ }
+
+ #interest{
+    font-family: 'Allison', cursive;
+
+    font-size: 40px;
+ }
+ .contactimg img{
+     width:220px;
+     height: 220px;
+     box-shadow: 2px 2px 2px 2px rgb(255, 99, 99);
+     border-radius: 20%;
+     margin-left:160px;
+     margin-top: 50px;
+
+ }
+ .contact{
+     display: flex;
+     margin-top:60px;
+     background-color: black;
+     height: 380px;
+     
+ }
+ .address{
+     margin-left:400px;
+ }
+ input{
+     margin-top: 30px;
+     width: 300px;
+     height: 30px;
+ }
+ #message{
+     height:120px;
+     text-align:start;
+     margin-top: 30px;
+ }
+ .social{
+ display: flex;
+  flex-direction: column;
+  justify-content:center;
+ }
+ .social div{
+      margin-top:15px;
+      margin-left: 220px;
+ }
+ button
+ {
+     margin-left: 120px;
+     width: 120px;
+     height: 30px;
+     background-color: black;
+     color:white;
+     border-color: white;
+ }
+ button:hover{
+     cursor: pointer;
+     background-color: tomato;
+ }
+ input:focus{
+     background-color: tomato;
+ }
